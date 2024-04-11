@@ -1,0 +1,210 @@
+
+.main-body {
+    color: white;
+    background-color: rgb(233, 118, 56);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.title-bar {
+     color: black;                                 
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   height: 50px;
+   background-color: white;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color:rgb(209, 203, 203); 
+   z-index: 1;
+}
+.home {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    height: 24px;
+    margin-right: 20px;
+    margin-left: 30px;
+    padding-left: 20px;
+    transition: text-shadow 0.8s;
+}
+.home:hover {    
+    text-shadow: 6px 2px 25px black;
+}
+.contact {
+    margin-left: 70px;
+   margin-right: 35px;
+    display: flex;
+    align-items: center;
+    transition: text-shadow 0.8s;
+}
+.contact:hover {    
+    text-shadow: 6px 2px 25px black;
+}
+.about {
+    width: 200px;
+    margin-left: 12px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    right: 10px;
+    transition: text-shadow 0.8s;
+} 
+.about:hover {    
+    text-shadow: 6px 2px 25px black;
+}
+.subs {
+    background-color: rgb(194, 33, 33);
+    color: white;
+    border:none;
+    height: 36px;
+    width: 105px;
+    margin-right: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition:background-color 1s, opacity 1s;
+}
+.subs:hover{
+    background-color:rgb(185, 47, 47);
+    opacity: 0.8;
+}
+marquee {
+    direction: ltr;
+
+    font:bold;
+    font-size: xx-large;
+    margin-top: 30px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 600;
+    color:rgb(255, 255, 255);
+    position: relative;
+    height: 50px;
+    text-shadow: 4px 6px 7px rgb(0, 0, 0);
+}
+
+h1{
+    text-shadow: 3px 5px 30px rgb(0, 0, 0);
+}
+.body {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    column-gap: 2px;
+    margin-top: 2px;
+}
+fieldset {
+    width: max-content;
+}
+
+ul {
+    background-color: #111111;
+    margin: 25px;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+    color: white;
+}
+body {
+    margin: 12px;
+    padding: 16px;
+}
+.advert {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+}
+.text {
+    position: relative;
+    top: 149px;
+    bottom: 150px;
+    opacity: 0.8;
+}
+
+
+
+.wlcom-body {
+    background-image: url('Pics/NISA\ COMPUTERS\ LOGO\ .jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-x: center;
+    background-position-y:center;
+    background-size: 1000px;                
+    color: rgb(26, 28, 13);
+    padding: 20px;
+}
+.wlcom-text {
+    
+    text-wrap:wrap;
+    width: 500px;
+
+
+    margin-bottom: 300px;
+}
+.slogan {
+    padding-bottom: 20px;
+    margin-top: 500px;
+    font-weight: 700;
+    font-size: x-large;
+    position: absolute;
+    left: 100px;
+    right:0px;
+    opacity: 75%;
+    transition: text-shadow 1s, opacity 1s;
+}
+.slogan:hover {
+    text-shadow: 2px 5px 30px orangered;
+    opacity: 90%;
+}
+.next {
+    background-color:rgb(244, 133, 64);
+    color: white;
+    height: 36px;
+    width: 60px;
+    position: absolute;
+    bottom: 12px;
+    right: 15px;
+    cursor:pointer;
+    border-color: rgb(238, 133, 81);
+    border-style: solid;
+    border-width: 1px;
+    margin:10px;
+    border-radius: 2px;
+    transition:background-color 1s;
+}
+.next:hover{
+    background-color: white;
+    color: rgb(244, 133, 64);
+    opacity: 0.8;
+    cursor: pointer;               
+}
+a {
+    text-decoration: none;
+}
